@@ -1,0 +1,48 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl calderacentral.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  plastic_0008_color_2k.jpg
+map_Ns  plastic_0008_roughness_2k.jpg
+map_Bump -bm 1.000000  plastic_0008_normal_opengl_2k.png
+
+newmtl dorado.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.317204 0.317204 0.317204
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  metal_0065_color_2k.jpg
+map_Ns  metal_0065_roughness_2k.jpg
+map_refl  metal_0065_metallic_2k.jpg
+map_Bump -bm 1.000000  metal_0065_normal_opengl_2k.png
+
+newmtl negro.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  metal_0056_color_2k.jpg
+map_Ns  metal_0056_roughness_2k.jpg
+map_refl  metal_0056_metallic_2k.jpg
+map_Bump -bm 1.000000  metal_0056_normal_opengl_2k.png
+
+newmtl rojocabina.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.155914 0.155914 0.155914
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  plastic_0002_color_2k.jpg
+map_Ns  plastic_0002_roughness_2k.jpg
+map_Bump -bm 1.000000  plastic_0002_normal_opengl_2k.png

@@ -1,0 +1,15 @@
+﻿  316017862_PROYECTOFINAL2024-2_GPO12.cpp
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(134,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(197,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(211,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(681,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1452,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1453,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1457,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1458,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1460,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\ProyectoFinal\316017862_PROYECTOFINAL2024-2_GPO12.cpp(1461,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_DXT.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_helper.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(SOIL2.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+  ProyectoFinal.vcxproj -> D:\Escuela\Semestre 24-2\Graficas\316017862_GPO12_PROYECTOFINAL2024-2\Debug\ProyectoFinal.exe

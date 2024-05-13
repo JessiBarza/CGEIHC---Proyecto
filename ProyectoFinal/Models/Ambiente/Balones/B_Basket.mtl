@@ -1,0 +1,13 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl ball_txtr
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd basket_ball_low_ball_txtr_BaseColor.png
+map_Ns basket_ball_low_ball_txtr_Roughness.png
+map_Bump -bm 1.000000 basket_ball_low_ball_txtr_Normal.png
