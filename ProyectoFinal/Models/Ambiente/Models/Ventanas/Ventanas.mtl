@@ -1,2 +1,22 @@
 # Blender 3.6.9 MTL File: 'Fachada.blend'
 # www.blender.org
+
+newmtl phong5SG.001
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Plantabaja.png
+map_Ks PlantabajaSpecular.png
+
+newmtl phong7SG.001
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Ventanas.png
+map_Ks VentanasSpecular.png
