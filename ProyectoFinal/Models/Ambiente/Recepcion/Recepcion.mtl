@@ -1,0 +1,23 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl RecepBlanco
+Ka 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_Graph_BaseColor.jpg
+map_Ns Substance_Graph_Roughness.jpg
+map_Bump -bm 1.000000 Substance_Graph_Normal.jpg
+
+newmtl RecepNegro
+Ns 200.000000
+Ka 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -s 0.333333 0.333333 1 istockphoto-544130444-170667a.jpg

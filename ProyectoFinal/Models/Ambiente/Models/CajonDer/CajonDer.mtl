@@ -1,0 +1,22 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Estante1:phong1SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Estantes.jpg
+map_Ks EstanteSpecular.jpg
+
+newmtl Estante1:phong2SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd perillas.jpg
+map_Ks PerillasSpecular.jpg

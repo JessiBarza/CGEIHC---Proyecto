@@ -1,0 +1,14 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl streets
+Ns 319.999939
+Ka 1.000000 1.000000 1.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -o 0 -1 0 streetsalbedo.png
+map_Ks -o 0 -1 0 streetsSpecular.png
+map_refl -o 0 -1 0 streetsSpecular.png
+map_Ke -o 0 -1 0 streetsEmmision.png
+map_Bump -o 0 -1 0 -bm 1.000000 streetsNormal.png

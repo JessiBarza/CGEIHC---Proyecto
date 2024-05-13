@@ -1,0 +1,45 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Material
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Concrete_Wall_012_basecolor.jpg
+map_Ns Concrete_Wall_012_roughness.jpg
+map_Bump -bm 1.000000 Concrete_Wall_012_normal.jpg
+
+newmtl Mueble
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Image_58.png
+
+newmtl Pared
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd marble_0017_color_2k.jpg
+map_Ns marble_0017_roughness_2k.jpg
+map_Bump -bm 1.000000 marble_0017_normal_opengl_2k.png
+
+newmtl Piso
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Substance_Graph_BaseColor.jpg
+map_Ns Substance_Graph_Roughness.jpg
+map_Bump -bm 1.000000 Substance_Graph_Normal.jpg

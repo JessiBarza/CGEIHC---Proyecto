@@ -1,0 +1,26 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Agarradera
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Metal_006_basecolor.jpg
+map_Ns  Metal_006_roughness.jpg
+map_refl  Metal_006_metallic.jpg
+map_Bump -bm 1.000000  Metal_006_normal.jpg
+
+newmtl Puerta
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Metal_Pattern_001_basecolor.jpg
+map_Ns  Metal_Pattern_001_roughness.jpg
+map_refl  Metal_Pattern_001_metallic.jpg
+map_Bump -bm 1.000000  Metal_Pattern_001_normal.jpg
