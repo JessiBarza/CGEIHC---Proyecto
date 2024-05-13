@@ -592,6 +592,7 @@ int main()
 	Model Repisa3((char*)"Models/Ambiente/Models/Repisa/Repisa3.obj");
 	Model Repisa4((char*)"Models/Ambiente/Models/Repisa/Repisa4.obj");
 	Model Torre((char*)"Models/Ambiente/Models/TorreEiffele/TorreEiffele.obj");
+	Model Ventanas((char*)"Models/Ambiente/Models/Ventanas/Ventanas.obj");
 
 	Model barra((char*)"Models/Ambiente/Modelos/Barra/barra.obj");
 	Model caja3((char*)"Models/Ambiente/Modelos/Caja_registradora/caja_registradora.obj");
@@ -855,6 +856,7 @@ int main()
 		Repisa3.Draw(lightingShader);
 		Repisa4.Draw(lightingShader);
 		Torre.Draw(lightingShader);
+		Ventanas.Draw(lightingShader);
 
 
 		barra.Draw(lightingShader);
