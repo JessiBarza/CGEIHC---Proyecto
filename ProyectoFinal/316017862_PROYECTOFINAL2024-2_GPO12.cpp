@@ -35,7 +35,7 @@ const GLuint WIDTH = 1920, HEIGHT = 1080;
 int SCREEN_WIDTH, SCREEN_HEIGHT;
 
 // Camera
-Camera  camera(glm::vec3(0.0f, 10.0f, 3.0f));
+Camera  camera(glm::vec3(50.0f, 50.0f, 50.0f));
 GLfloat lastX = WIDTH / 2.0;
 GLfloat lastY = HEIGHT / 2.0;
 bool keys[1024];
@@ -458,7 +458,7 @@ int main()
 	glfwInit();
 
 	// Create a GLFWwindow object that we can use for GLFW's functions
-	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Iluminacion 2", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "ProyectoFinalEQ7", nullptr, nullptr);
 
 	if (nullptr == window)
 	{
@@ -549,7 +549,7 @@ int main()
 
 	Model BICI((char*)"Models/Ambiente/Bici/Bici.obj");
 	Model BOTE((char*)"Models/Ambiente/BoteBasura/BoteBasura.obj");
-	Model CAJA((char*)"Models/Ambiente/CajaRegistradora/CajaRegistradora.obj");
+	//Model CAJA((char*)"Models/Ambiente/CajaRegistradora/CajaRegistradora.obj");
 	Model UNO((char*)"Models/Ambiente/CajaUno/CajaUno.obj");
 	Model EDIFICIO((char*)"Models/Ambiente/Edificio/Edificio.obj");
 	Model TECHO((char*)"Models/Ambiente/Techo/Techo.obj");
@@ -560,52 +560,52 @@ int main()
 	Model RECEPCION((char*)"Models/Ambiente/Recepcion/Recepcion.obj");
 	Model SILLONL((char*)"Models/Ambiente/SillonL/SillonL.obj");
 	Model TERMINAL((char*)"Models/Ambiente/Terminal/Terminal.obj");
-	Model PARKING((char*)"Models/Ambiente/Parking/Parking.obj");
-	Model CALLE((char*)"Models/Ambiente/Calle/Calle.obj");
-	Model FAROS((char*)"Models/Ambiente/Calle/Faros.obj");
-	Model ENTORNO((char*)"Models/Ambiente/Locales/Local.obj");
-	Model ENTORNO2((char*)"Models/Ambiente/Locales/Local3.obj");
-	Model ENTORNO3((char*)"Models/Ambiente/Locales/Local4.obj");
-	Model ENTORNO4((char*)"Models/Ambiente/Locales/Local5.obj");
+	//Model PARKING((char*)"Models/Ambiente/Parking/Parking.obj");
+	//Model CALLE((char*)"Models/Ambiente/Calle/Calle.obj");
+	//Model FAROS((char*)"Models/Ambiente/Calle/Faros.obj");
+	//Model ENTORNO((char*)"Models/Ambiente/Locales/Local.obj");
+	//Model ENTORNO2((char*)"Models/Ambiente/Locales/Local3.obj");
+	//Model ENTORNO3((char*)"Models/Ambiente/Locales/Local4.obj");
+	//Model ENTORNO4((char*)"Models/Ambiente/Locales/Local5.obj");
 
-	Model Baguette((char*)"Models/Ambiente/Models/Baguette/Baguette.obj");
-	Model Bandeja((char*)"Models/Ambiente/Models/Bandeja/Bandeja.obj");
-	Model Bascula((char*)"Models/Ambiente/Models/Bascula/Bascula.obj");
-	Model Flecha((char*)"Models/Ambiente/Models/Bascula/FlechaBascula.obj");
-	Model Batidora((char*)"Models/Ambiente/Models/Batidora/Batidora.obj");
-	Model Caja2((char*)"Models/Ambiente/Models/CajaRegistradora2/CajaRegistradora.obj");
-	Model Candelabro((char*)"Models/Ambiente/Models/Candelabro/Candelabro.obj");
-	Model Panaderia((char*)"Models/Ambiente/Models/Casa/CasaTotal.obj");
-	Model Estante((char*)"Models/Ambiente/Models/Estante/Estante1.obj");
-	Model Estante2((char*)"Models/Ambiente/Models/Estante/Estantes2.obj");
-	Model Horno((char*)"Models/Ambiente/Models/Horno/Horno.obj");
-	Model Lena((char*)"Models/Ambiente/Models/Lena/Lena.obj");
-	Model Mesa((char*)"Models/Ambiente/Models/Mesa/Mesa.obj");
-	Model Mesa2((char*)"Models/Ambiente/Models/Mesa/MesaMadera.obj");
-	Model Pala((char*)"Models/Ambiente/Models/Pala/Palat.obj");
-	Model Pan((char*)"Models/Ambiente/Models/Pan/Pan.obj");
-	Model Piso2((char*)"Models/Ambiente/Models/Piso/Piso.obj");
-	Model Plato((char*)"Models/Ambiente/Models/PlatilloBatidora/PlatilloBatidora.obj");
-	Model PuertaTrasera((char*)"Models/Ambiente/Models/PuertaTrasera/PuertaTrasera.obj");
-	Model Repisa1((char*)"Models/Ambiente/Models/Repisa/Repisa1.obj");
-	Model Repisa2((char*)"Models/Ambiente/Models/Repisa/Repisa2.obj");
-	Model Repisa3((char*)"Models/Ambiente/Models/Repisa/Repisa3.obj");
-	Model Repisa4((char*)"Models/Ambiente/Models/Repisa/Repisa4.obj");
-	Model Torre((char*)"Models/Ambiente/Models/TorreEiffele/TorreEiffele.obj");
-	Model Ventanas((char*)"Models/Ambiente/Models/Ventanas/Ventanas.obj");
+	//Model Baguette((char*)"Models/Ambiente/Models/Baguette/Baguette.obj");
+	//Model Bandeja((char*)"Models/Ambiente/Models/Bandeja/Bandeja.obj");
+	//Model Bascula((char*)"Models/Ambiente/Models/Bascula/Bascula.obj");
+	//Model Flecha((char*)"Models/Ambiente/Models/Bascula/FlechaBascula.obj");
+	//Model Batidora((char*)"Models/Ambiente/Models/Batidora/Batidora.obj");
+	//Model Caja2((char*)"Models/Ambiente/Models/CajaRegistradora2/CajaRegistradora.obj");
+	//Model Candelabro((char*)"Models/Ambiente/Models/Candelabro/Candelabro.obj");
+	//Model Panaderia((char*)"Models/Ambiente/Models/Casa/CasaTotal.obj");
+	//Model Estante((char*)"Models/Ambiente/Models/Estante/Estante1.obj");
+	//Model Estante2((char*)"Models/Ambiente/Models/Estante/Estantes2.obj");
+	//Model Horno((char*)"Models/Ambiente/Models/Horno/Horno.obj");
+	//Model Lena((char*)"Models/Ambiente/Models/Lena/Lena.obj");
+	//Model Mesa((char*)"Models/Ambiente/Models/Mesa/Mesa.obj");
+	//Model Mesa2((char*)"Models/Ambiente/Models/Mesa/MesaMadera.obj");
+	//Model Pala((char*)"Models/Ambiente/Models/Pala/Palat.obj");
+	//Model Pan((char*)"Models/Ambiente/Models/Pan/Pan.obj");
+	//Model Piso2((char*)"Models/Ambiente/Models/Piso/Piso.obj");
+	//Model Plato((char*)"Models/Ambiente/Models/PlatilloBatidora/PlatilloBatidora.obj");
+	//Model PuertaTrasera((char*)"Models/Ambiente/Models/PuertaTrasera/PuertaTrasera.obj");
+	//Model Repisa1((char*)"Models/Ambiente/Models/Repisa/Repisa1.obj");
+	//Model Repisa2((char*)"Models/Ambiente/Models/Repisa/Repisa2.obj");
+	//Model Repisa3((char*)"Models/Ambiente/Models/Repisa/Repisa3.obj");
+	//Model Repisa4((char*)"Models/Ambiente/Models/Repisa/Repisa4.obj");
+	//Model Torre((char*)"Models/Ambiente/Models/TorreEiffele/TorreEiffele.obj");
+	//Model Ventanas((char*)"Models/Ambiente/Models/Ventanas/Ventanas.obj");
 
-	Model barra((char*)"Models/Ambiente/Modelos/Barra/barra.obj");
-	Model caja3((char*)"Models/Ambiente/Modelos/Caja_registradora/caja_registradora.obj");
-	Model cafe((char*)"Models/Ambiente/Modelos/Fachada/fachada.obj");
-	Model florero((char*)"Models/Ambiente/Modelos/Florero/florero.obj");
-	Model lamp((char*)"Models/Ambiente/Modelos/Lamparas/lampara.obj");
-	Model mext((char*)"Models/Ambiente/Modelos/Mesa_sillas_exterior/mesa_sillas_ext.obj");
-	Model mint((char*)"Models/Ambiente/Modelos/Mesas_sillas_interior/mesas_sillas_int.obj");
-	Model mueble((char*)"Models/Ambiente/Modelos/Mueble/mueble.obj");
-	Model piso((char*)"Models/Ambiente/Modelos/Piso/piso.obj");
-	Model pisoc((char*)"Models/Ambiente/Modelos/Piso/PisoCalle.obj");
-	Model swich((char*)"Models/Ambiente/Modelos/Swich/swich.obj");
-	Model taza((char*)"Models/Ambiente/Modelos/Taza/taza.obj");
+	//Model barra((char*)"Models/Ambiente/Modelos/Barra/barra.obj");
+	//Model caja3((char*)"Models/Ambiente/Modelos/Caja_registradora/caja_registradora.obj");
+	//Model cafe((char*)"Models/Ambiente/Modelos/Fachada/fachada.obj");
+	//Model florero((char*)"Models/Ambiente/Modelos/Florero/florero.obj");
+	//Model lamp((char*)"Models/Ambiente/Modelos/Lamparas/lampara.obj");
+	//Model mext((char*)"Models/Ambiente/Modelos/Mesa_sillas_exterior/mesa_sillas_ext.obj");
+	//Model mint((char*)"Models/Ambiente/Modelos/Mesas_sillas_interior/mesas_sillas_int.obj");
+	//Model mueble((char*)"Models/Ambiente/Modelos/Mueble/mueble.obj");
+	//Model piso((char*)"Models/Ambiente/Modelos/Piso/piso.obj");
+	//Model pisoc((char*)"Models/Ambiente/Modelos/Piso/PisoCalle.obj");
+	//Model swich((char*)"Models/Ambiente/Modelos/Swich/swich.obj");
+	//Model taza((char*)"Models/Ambiente/Modelos/Taza/taza.obj");
 
 
 
@@ -808,7 +808,7 @@ int main()
 		
 		
 		
-		///CESTO.Draw(lightingShader);
+		//CESTO.Draw(lightingShader);
 		//BASKET.Draw(lightingShader);
 		//ARCADE.Draw(lightingShader);
 		//SILLON.Draw(lightingShader);
@@ -819,7 +819,7 @@ int main()
 
 		BICI.Draw(lightingShader);
 		BOTE.Draw(lightingShader);
-		CAJA.Draw(lightingShader);
+		//CAJA.Draw(lightingShader);
 		EDIFICIO.Draw(lightingShader);
 		TECHO.Draw(lightingShader);
 		EXTINTOR.Draw(lightingShader);
@@ -828,53 +828,53 @@ int main()
 		RECEPCION.Draw(lightingShader);
 		SILLONL.Draw(lightingShader);
 		TERMINAL.Draw(lightingShader);
-		PARKING.Draw(lightingShader);
-		CALLE.Draw(lightingShader);
-		FAROS.Draw(lightingShader);
+		//PARKING.Draw(lightingShader);
+		//CALLE.Draw(lightingShader);
+		//FAROS.Draw(lightingShader);
 
-		Baguette.Draw(lightingShader);
-		Bandeja.Draw(lightingShader);
-		Bascula.Draw(lightingShader);
-		Flecha.Draw(lightingShader);
-		Batidora.Draw(lightingShader);
-		Caja2.Draw(lightingShader);
-		Candelabro.Draw(lightingShader);
-		Panaderia.Draw(lightingShader);
-		Estante.Draw(lightingShader);
-		Estante2.Draw(lightingShader);
-		Horno.Draw(lightingShader);
-		Lena.Draw(lightingShader);
-		Mesa.Draw(lightingShader);
-		Mesa2.Draw(lightingShader);
-		Pala.Draw(lightingShader);
-		Pan.Draw(lightingShader);
-		Piso2.Draw(lightingShader);
-		Plato.Draw(lightingShader);
-		PuertaTrasera.Draw(lightingShader);
-		Repisa1.Draw(lightingShader);
-		Repisa2.Draw(lightingShader);
-		Repisa3.Draw(lightingShader);
-		Repisa4.Draw(lightingShader);
-		Torre.Draw(lightingShader);
-		Ventanas.Draw(lightingShader);
+		//Baguette.Draw(lightingShader);
+		//Bandeja.Draw(lightingShader);
+		//Bascula.Draw(lightingShader);
+		//Flecha.Draw(lightingShader);
+		//Batidora.Draw(lightingShader);
+		//Caja2.Draw(lightingShader);
+		//Candelabro.Draw(lightingShader);
+		//Panaderia.Draw(lightingShader);
+		//Estante.Draw(lightingShader);
+		//Estante2.Draw(lightingShader);
+		//Horno.Draw(lightingShader);
+		//Lena.Draw(lightingShader);
+		//Mesa.Draw(lightingShader);
+		//Mesa2.Draw(lightingShader);
+		//Pala.Draw(lightingShader);
+		//Pan.Draw(lightingShader);
+		//Piso2.Draw(lightingShader);
+		//Plato.Draw(lightingShader);
+		//PuertaTrasera.Draw(lightingShader);
+		//Repisa1.Draw(lightingShader);
+		//Repisa2.Draw(lightingShader);
+		//Repisa3.Draw(lightingShader);
+		//Repisa4.Draw(lightingShader);
+		//Torre.Draw(lightingShader);
+		//Ventanas.Draw(lightingShader);
 
 
-		barra.Draw(lightingShader);
-		caja3.Draw(lightingShader);
-		cafe.Draw(lightingShader);
-		florero.Draw(lightingShader);
-		lamp.Draw(lightingShader);
-		mext.Draw(lightingShader);
-		mint.Draw(lightingShader);
-		mueble.Draw(lightingShader);
-		piso.Draw(lightingShader);
-		swich.Draw(lightingShader);
-		pisoc.Draw(lightingShader);
-		taza.Draw(lightingShader);
-		ENTORNO.Draw(lightingShader);
-		ENTORNO2.Draw(lightingShader);
-		ENTORNO3.Draw(lightingShader);
-		ENTORNO4.Draw(lightingShader);
+		//barra.Draw(lightingShader);
+		//caja3.Draw(lightingShader);
+		//cafe.Draw(lightingShader);
+		//florero.Draw(lightingShader);
+		//lamp.Draw(lightingShader);
+		//mext.Draw(lightingShader);
+		//mint.Draw(lightingShader);
+		//mueble.Draw(lightingShader);
+		//piso.Draw(lightingShader);
+		//swich.Draw(lightingShader);
+		//pisoc.Draw(lightingShader);
+		//taza.Draw(lightingShader);
+		//ENTORNO.Draw(lightingShader);
+		//ENTORNO2.Draw(lightingShader);
+		//ENTORNO3.Draw(lightingShader);
+		//ENTORNO4.Draw(lightingShader);
 
 
 		//modelos repetidos
@@ -1227,7 +1227,7 @@ int main()
 
 
 
-		////////////////////PUERTA//////////////////
+		//////////////////PUERTA//////////////////
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(-12.5f, 0.6f, -5.3f));
 		model = glm::rotate(model, glm::radians(-rotPuerta), glm::vec3(0.0f, 1.0f, 0.0f));
