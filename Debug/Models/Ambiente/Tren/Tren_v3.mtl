@@ -1,0 +1,25 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Blanco
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  plastic_0008_color_2k.jpg
+map_Ns  plastic_0008_roughness_2k.jpg
+map_Bump -bm 1.000000  plastic_0008_normal_opengl_2k.png
+
+newmtl negromate
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  metal_0056_color_2k.jpg
+map_Ns  metal_0056_roughness_2k.jpg
+map_refl  metal_0056_metallic_2k.jpg
+map_Bump -bm 1.000000  metal_0056_normal_opengl_2k.png

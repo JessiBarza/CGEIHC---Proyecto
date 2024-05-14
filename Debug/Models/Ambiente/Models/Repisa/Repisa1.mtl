@@ -1,0 +1,12 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Repisa1:phong2SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Repisa1.jpg
+map_Ks Repisa1Specular.jpg

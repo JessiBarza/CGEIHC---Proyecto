@@ -1,0 +1,62 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl aiStandardSurface1SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+
+newmtl initialShadingGroup
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd texturada_pared.jpg
+
+newmtl lambert28SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd texturada_maderas_pared.jpg
+
+newmtl lambert57SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd texturada_pared_fuerte.jpg
+
+newmtl lambert58SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd textura_dorada.jpg
+
+newmtl lambert74SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd textura_vidrio.png

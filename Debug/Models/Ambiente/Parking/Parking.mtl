@@ -1,0 +1,56 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl building_green2.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ground_0040_color_2k.jpg
+map_Ns ground_0040_roughness_2k.jpg
+map_Bump -bm 1.000000 ground_0040_normal_opengl_2k.png
+
+newmtl building_grey.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd asphalt_0003_color_2k.jpg
+map_Ns asphalt_0003_roughness_2k.jpg
+map_Bump -bm 1.000000 asphalt_0003_normal_opengl_2k.png
+
+newmtl building_white.002
+Ns 39.999996
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Blanco.jpg
+
+newmtl tree_brown.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd paper_0023_color_2k.jpg
+map_Ns paper_0023_roughness_2k.jpg
+map_Bump -bm 1.000000 paper_0023_normal_opengl_2k.png
+
+newmtl tree_green.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd fabrics_0075_color_2k.jpg
+map_Ns fabrics_0075_roughness_2k.jpg
+map_Bump -bm 1.000000 fabrics_0075_normal_opengl_2k.png

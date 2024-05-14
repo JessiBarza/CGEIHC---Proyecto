@@ -1,0 +1,66 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl ATM_BlueScreen
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Bluescreen.jpg
+
+newmtl ATM_Keypad
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Atm_Keypad_Dif.jpg
+map_Ks Atm_Keypad_SPEC.png
+map_Bump -bm 1.000000 Atm_Keypad_NRM.png
+
+newmtl Atm_Body
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ATM_BODY_COLOR.png
+
+newmtl Atm_Button
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd Atm_Button_COLOR.png
+map_Ks Atm_Button_SPEC.png
+map_d Atm_Button_COLOR.png
+map_Bump -bm 1.000000 Atm_Button_NRM.png
+
+newmtl Atm_Metal
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd Atm_Metal_COLOR.png
+map_Ks Atm_Metal_SPEC.png
+map_d Atm_Metal_COLOR.png
+map_Bump -bm 1.000000 Atm_Metal_NRM.png
+
+newmtl Plastic
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd Black_Plastic_COLOR.png
+map_Ks Black_Plastic_SPEC.png
+map_d Black_Plastic_COLOR.png
+map_Bump -bm 1.000000 Black_Plastic_NRM.png

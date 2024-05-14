@@ -1,0 +1,47 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Material.002
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd fabrics_0066_color_2k.jpg
+map_Ns fabrics_0066_roughness_2k.jpg
+map_Bump -bm 1.000000 fabrics_0066_normal_opengl_2k.png
+
+newmtl Material.004
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Wood_027_basecolor.jpg
+map_Ns  Wood_027_roughness.jpg
+map_Bump -bm 1.000000  Wood_027_normal.jpg
+
+newmtl Material.005
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd metal_0056_color_2k.jpg
+map_Ns plastic_0002_roughness_2k.jpg
+map_Bump -bm 1.000000 plastic_0008_normal_opengl_2k.png
+
+newmtl Silver.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Metal_006_basecolor.jpg
+map_Ns Metal_006_roughness.jpg
+map_refl Metal_006_metallic.jpg
+map_Bump -bm 1.000000 Metal_006_normal.jpg
