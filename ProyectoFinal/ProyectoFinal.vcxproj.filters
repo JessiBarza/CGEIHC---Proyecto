@@ -32,11 +32,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="316017862_PROYECTOFINAL2024-2_GPO12.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Shaders\anim.frag">
       <Filter>Archivos de origen\Shaders</Filter>
     </None>
@@ -67,5 +62,10 @@
     <None Include="Shaders\SkyBox.vs">
       <Filter>Archivos de origen\Shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PROYECTOFINAL2024-2_GPO1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

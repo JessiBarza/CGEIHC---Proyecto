@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Computacion-Grafica-2024\\Computacion-Grafica-2024\\CGEIHC---Proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{245EA630-0BEB-42DB-B6BF-DCC62C3321FC}|ProyectoFinal\\ProyectoFinal.vcxproj|E:\\Computacion-Grafica-2024\\Computacion-Grafica-2024\\CGEIHC---Proyecto\\ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{245EA630-0BEB-42DB-B6BF-DCC62C3321FC}|ProyectoFinal\\ProyectoFinal.vcxproj|solutionrelative:ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PROYECTOFINAL2024-2_GPO1.cpp",
+              "DocumentMoniker": "E:\\Computacion-Grafica-2024\\Computacion-Grafica-2024\\CGEIHC---Proyecto\\ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp",
+              "RelativeDocumentMoniker": "ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp",
+              "ToolTip": "E:\\Computacion-Grafica-2024\\Computacion-Grafica-2024\\CGEIHC---Proyecto\\ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp",
+              "RelativeToolTip": "ProyectoFinal\\PROYECTOFINAL2024-2_GPO1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T02:26:19.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
