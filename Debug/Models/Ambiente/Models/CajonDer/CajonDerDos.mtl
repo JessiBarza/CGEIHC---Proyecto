@@ -1,0 +1,40 @@
+newmtl CajonDer:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Estantes.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks EstanteSpecular.jpg
+Ns 18.00
+newmtl CajonDer:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd perillas.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks PerillasSpecular.jpg
+Ns 18.00
+newmtl CajonDer3:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Estantes.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks EstanteSpecular.jpg
+Ns 18.00
+newmtl CajonDer3:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd perillas.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks PerillasSpecular.jpg
+Ns 18.00

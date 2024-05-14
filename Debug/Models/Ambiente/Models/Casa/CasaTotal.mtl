@@ -1,0 +1,122 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl lambert2SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Paredes.jpg
+
+newmtl lambert3SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Paredes.jpg
+
+newmtl lambert4SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Paredes.jpg
+map_Ks ParedesSpecular.jpg
+
+newmtl lambert5SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd TechoPoste1.jpg
+map_Ks TechoSpecular.jpg
+
+newmtl lambert7SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd TechoPoste1.jpg
+map_Ks TechoSpecular.jpg
+
+newmtl lambert8SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Paredes.jpg
+map_Ks ParedesSpecular.jpg
+
+newmtl phong11SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd MetalViejo.jpg
+map_Ks MetalSpecular.jpg
+
+newmtl phong4SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd TechoPoste1.jpg
+map_Ks TechoSpecular.jpg
+
+newmtl phong5SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Plantabaja.png
+map_Ks PlantabajaSpecular.png
+
+newmtl phong7SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Ventanas.png
+map_Ks VentanasSpecular.png
+
+newmtl phong8SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Estantes.jpg
+map_Ks EstanteSpecular.jpg
+
+newmtl phong9SG
+Ns 18.000004
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Pisos.jpg
+map_Ks PisosSpecular.png

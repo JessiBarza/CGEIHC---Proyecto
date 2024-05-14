@@ -1,0 +1,24 @@
+# Blender 3.6.9 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Caja
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd 3g4.png
+map_Bump -bm 1.000000 43h53.png
+
+newmtl CajaRegistradora
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd j66ghh.png
+map_Ns DYN_FF_TILL_Material__296_Roughness_Raw.png
+map_Bump -bm 1.000000 DYN_FF_TILL_Material__697_Normal_Raw.png
