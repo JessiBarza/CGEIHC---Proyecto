@@ -25,9 +25,6 @@
     <ClInclude Include="Texture.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="316017862_PROYECTOFINAL2024-2_GPO12.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Shaders\anim.frag" />
     <None Include="Shaders\anim.vs" />
     <None Include="Shaders\lamp.frag" />
@@ -38,6 +35,9 @@
     <None Include="Shaders\modelLoading.vs" />
     <None Include="Shaders\SkyBox.frag" />
     <None Include="Shaders\SkyBox.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PROYECTOFINAL2024-2_GPO1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
